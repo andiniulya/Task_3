@@ -36,6 +36,8 @@ address alokasi (infotype x);
 void insertFirst (list *l, address p);
 void insertLast (list *l,address p);
 
+void viewList (list l);
+
 void deleteFirst (list *l,address p);
 void deleteLast(list *l,address p);
 
