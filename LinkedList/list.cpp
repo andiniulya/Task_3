@@ -63,7 +63,29 @@ void deleteAfter (list *l,address q, address p)
 
 address searchBuku(list l, infotype x)
 {
-   //Dzaky
+    address c;
+    c = ((l).first);
+    if (c==NULL)
+    {
+        c=NULL;
+        return c;
+    }
+    while (c != NULL)
+    {
+        if (((x.ID) == 0) || (x.ID==(info(c)).ID))
+        {
+
+            return c;
+            break;
+        }
+        else
+        {
+            c=next(c);
+        }
+        break;
+    }
+    c=NULL;
+    return c;
 };
 
 
