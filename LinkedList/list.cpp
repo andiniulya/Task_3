@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//SEMANGAT !!
+//SEMANGAT !! Jangan lupa edit main.cppnya
 
 infotype x;
 
@@ -30,29 +30,40 @@ address alokasi (infotype x)
 
 void insertFirst (list *l, address p)
 {
-
+    //Komang
+    
 };
 
 void insertLast (list *l, address p)
 {
+  //Komang
   
 };
 
+void insertAfter (list *l, address p, address prec)
+{
+  //Komang
+  
+};
 
 void deleteFirst (list *l, address p)
 {
-   
+   //Ulya
 };
 
 void deleteLast (list *l, address p)
 {
-   
+    //Ulya
 };
 
+void deleteAfter (list *l,address q, address p)
+{
+  //Ulya  
+};
 
 address searchBuku(list l, infotype x)
 {
-   
+   //Dzaky
 };
 
 
