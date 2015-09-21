@@ -43,6 +43,7 @@ void viewList (list l);
 void deleteFirst (list *l,address p);
 void deleteLast(list *l,address p);
 void deleteAfter (list *l,address q, address p);
+address searchBuku(list l, infotype x);
 
 
 #endif // LIST_H_INCLUDED
